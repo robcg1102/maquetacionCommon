@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* #5349DB
+#EE6F5E
+#FEF5F4
+ */
+
+ /*Navigation*/
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 35px 0;
+    color: #5349DB;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    font-size: small;
+}
+
+i {
+    font-size: 25px;
+    color: #5349DB;
+}
+
+.optionMenu {
+    text-align: center;
+}
+
+.menuDrop {
+    display: flex;
+}
+
+.barDrop {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5349DB;
+    color: white;
+    font-size: small;
+    width: 100%;
+}
+
+.price-tag {
+    padding: 2px 30px;
+    background-color: #EE6F5E;
+}
+
+.justifyText i {
+    color: white;
+}
+
+
+.new_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.searchLogo {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Carousel */
+
+.carouselBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carouselBar img{
+    width: 60%;
+    height: 420px;
+}
+
+.contentCarousel {
+    background-color: #EE6F5E;
+    color: white;
+    font-size: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentText{
+    width: 70%;
+    text-align: left;
+    border-left: white 2px solid;
+}
+
+
+/* Items */
+
+.itemsSection {
+    margin: 30px 45px;
+}
+
+.itemsSection h3{
+    margin-left: 8%;
+    color: #5349DB;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+
+.root {
+    text-align: center;
+    max-width: 500px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}   
+
+.media {
+    height: 140px;
+}
+
+.contentItem{
+    text-align: left;
+    width: 280px;
+}
+
+.priceTag{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardHeart {
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 4%;
+}
+
+/* Index */
+
+.guarantee {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FEF5F4;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.cardGuarantee {
+    text-align: center;
+    max-width: 500px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    margin: 15px 20px;
+}
+
+.cardGuarantee img {
+    height: 100px;
+}
+
+/* Footer */
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #F6F7F7;
+    align-items: center;
+    padding: 45px 0;
+}
+
+
+.contact {
+    background-color: #5349DB;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.cardContact{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    line-height: 30px;
+    color: white;
+}
+.cardContact i{
+    color: white;
+}
+
+.cardContact h4{
+    margin: 0 0 15px 0;
+}
+
+li{
+    list-style: none;
+}
+
+.cardContact img{
+    width: 180px;
+    margin: 20px 0;
+}
+
+.termsRights {
+    background-color: #EE6F5E;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 15px 0;
+    font-size: small;
+}
+
+.terms {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.cond {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* General */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.justifyText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.leftPos{
+    justify-content: left;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .navBar{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .carouselBar {
+        height: 30%;
+    }
+    .contentCarousel {
+        font-size: 20px;
+    }
+
+    .carouselBar img{
+        width: 60%;
+        height: 200px;
+    }
+
+    .optionMenu p{
+        display: none;
+    }
+
+    .brands img{
+        padding: 10px 0;
+    }
+
+    .searchLogo {
+        width: 80%;
+    }
+
+    .options {
+        width: 80%;
+    }
+
+
+  }
