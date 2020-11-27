@@ -19,9 +19,9 @@ const Navigation = () => {
     <div>
       <div className="navBar">
         <div className="searchLogo">
-          <a href="#">
+          <a href="#" style={{width: "10%"}}>
             <img
-              src="https://res.cloudinary.com/robcg1102/image/upload/v1604355701/maq_img/logo_nqvtbv.png"
+              src="https://library.kissclipart.com/20180901/ele/kissclipart-rubber-duck-png-clipart-rubber-duck-clip-art-6e4079de63415213.png" style={{width: "90%"}}
               alt="logo"
             />
           </a>

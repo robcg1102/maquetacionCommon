@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Proyecto creado para pruebas de Common Sense People
+Ejercicio de maquetación con Next.js
 
 ## Para uso
 
